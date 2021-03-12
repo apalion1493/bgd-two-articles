@@ -1,0 +1,137 @@
+.article-container__title {
+    max-width: 735px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-section-theSameType__header {
+    margin-bottom: 28px;
+}
+
+.article-media-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.article-media-card__img {
+    margin-bottom: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-media-card__img img {
+    width: 100%;
+}
+
+.article-media-card_horizontal {
+    flex-direction: row;
+}
+
+.article-media-card__body {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-media-card_horizontal .article-media-card__img {
+    margin-bottom: 0;
+    width: 50%;
+    min-width: 50%;
+    padding-right: 15px;
+}
+
+.article-media-card_horizontal .article-media-card__body {
+    padding-left: 15px;
+    justify-content: center;
+}
+
+.article-media-card__title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    display: block;
+    margin-bottom: 9px;
+}
+
+.article-section-theSameType__h4 {
+    text-align: center;
+    display: block;
+}
+
+.article-section-theSameType__table thead {
+    background: rgba(47, 154, 170, .1);
+}
+
+.article-section-theSameType__table thead td {
+    font-weight: bold;
+}
+
+.article-section-theSameType__table tr td:last-child {
+    padding-left: 14px !important;
+    padding-right: 7px;
+}
+
+.article-section-theSameType__item {
+    list-style: none;
+}
+
+.article-section-theSameType__item-content {
+    flex-grow: 1;
+}
+
+.table-addressSchedule {
+    border: none;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.table-addressSchedule td {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    padding-bottom: 24px;
+}
+
+.table-addressSchedule td:first-child {
+    width: 160px;
+    padding-left: 25px;
+}
+
+.table-addressSchedule span {
+    font-weight: bold;
+    position: relative;
+}
+
+.table-addressSchedule span:before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #2F9AAA;
+    left: -25px;
+    top: 3px;
+}
+
+@media (max-width: 991.98px) {
+    .article-media-card_horizontal {
+        flex-direction: column;
+    }
+
+    .article-media-card_horizontal .article-media-card__img {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 33px;
+    }
+
+    .article-media-card_horizontal .article-media-card__body {
+        padding-left: 0;
+    }
+}
+
